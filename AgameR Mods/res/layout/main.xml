@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:layout_gravity="center|center_vertical|center_horizontal"
+	android:gravity="center|center_vertical|center_horizontal">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:background="@drawable/title"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="v0.1 (preview 9)"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:id="@+id/smallTextView1"
+		android:textColor="#FFFFFF"/>
+
+	<TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:gravity="center|center_vertical|center_horizontal"
+		android:layout_gravity="center|center_vertical|center_horizontal"
+		android:id="@+id/tableRow1">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Mods"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="0dp"
+			android:scaleX="1.0"
+			android:scaleY="1.0"
+			android:layout_marginTop="0dp"
+			android:paddingLeft="10dp"
+			android:id="@+id/button1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Info"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="0dp"
+			android:layout_marginTop="0dp"
+			android:scaleX="1.0"
+			android:scaleY="1.0"
+			android:id="@+id/button2"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/tableRow2"
+		android:layout_gravity="center|center_vertical|center_horizontal"
+		android:gravity="center|center_vertical|center_horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="BlockLauncher"
+			android:layout_width="wrap_content"
+			android:id="@+id/smallButton1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="BlockLauncher Pro"
+			android:layout_width="wrap_content"
+			android:id="@+id/smallButton2"/>
+
+	</TableRow>
+
+</LinearLayout>
+

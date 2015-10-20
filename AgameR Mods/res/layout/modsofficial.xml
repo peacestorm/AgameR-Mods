@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/background"
+	android:gravity="center|center_vertical|center_horizontal"
+	android:layout_gravity="center|center_vertical|center_horizontal">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="MoreThanMobs PE"
+		android:layout_width="wrap_content"
+		android:id="@+id/modsOfficialButton1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Paint Mod PE"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/modsOfficialButton1"
+		android:id="@+id/modsOfficialButton2"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Hats Mod PE"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/modsOfficialButton2"
+		android:id="@+id/modsOfficialButton3"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="MoreThanBlocks PE"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/modsOfficialButton3"
+		android:id="@+id/modsOfficialButton4"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="AgameR Modpack PE"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/modsOfficialButton4"
+		android:id="@+id/modsOfficialButton5"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="AgameR MoreOptions PE"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/modsOfficialButton5"
+		android:id="@+id/modsOfficialButton6"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/background"
+	android:gravity="center|center_vertical|center_horizontal"
+	android:layout_gravity="center|center_vertical|center_horizontal">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Instant Blocks PE"
+		android:layout_width="wrap_content"
+		android:paddingLeft="134dp"
+		android:paddingRight="134dp"
+		android:id="@+id/modsPCPortedButton1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="More coming soon..."
+		android:layout_width="wrap_content"
+		android:layout_below="@id/modsPCPortedButton1"
+		android:paddingLeft="160dp"
+		android:paddingRight="160dp"
+		android:id="@+id/modsPCPortedButton2"/>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/background">
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:text="Official AgameR mods"
+		android:layout_width="wrap_content"
+		android:id="@+id/modsMainButton1"
+		android:background="#00C6FF"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:text="PC ported mods"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@id/modsMainButton1"
+		android:id="@+id/modsMainButton2"
+		android:background="#00D2FF"/>
+
+</RelativeLayout>
+
+

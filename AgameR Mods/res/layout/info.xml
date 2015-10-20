@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:layout_gravity="center|center_vertical|center_horizontal"
+	android:gravity="center|center_vertical|center_horizontal">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="AgameR Mods"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="0dp"
+		android:textSize="30sp"
+		android:id="@+id/infoLolTextView1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="v0.1 (preview 9) - © 2014-2015 by peacestorm | Special thanks to Ethan061903 for helping with testing and Temena for the file download code)"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:id="@+id/infoSmallTextView1"
+		android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+
